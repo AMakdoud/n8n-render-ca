@@ -20,7 +20,6 @@ services:
         fromDatabase: { name: n8n-db, property: user }
       - key: DB_POSTGRESDB_PASSWORD
         fromDatabase: { name: n8n-db, property: password }
-
       - key: PORT
         value: 5678
       - key: N8N_LOG_LEVEL
@@ -39,10 +38,6 @@ services:
         value: admin
       - key: N8N_BASIC_AUTH_PASSWORD
         generateValue: true
-      # À ajouter après le 1er déploiement, dans Render > Environment :
-      # - key: WEBHOOK_URL
-      #   value: https://<ton-service>.onrender.com/
-
 databases:
   - name: n8n-db
     region: oregon
