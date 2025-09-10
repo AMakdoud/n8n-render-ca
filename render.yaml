@@ -25,16 +25,12 @@ services:
         value: 5678
       - key: N8N_LOG_LEVEL
         value: info
-
-      # Québec
       - key: GENERIC_TIMEZONE
         value: America/Toronto
       - key: TZ
         value: America/Toronto
       - key: N8N_DEFAULT_LOCALE
         value: fr
-
-      # Sécurité
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
       - key: N8N_BASIC_AUTH_ACTIVE
@@ -43,8 +39,7 @@ services:
         value: admin
       - key: N8N_BASIC_AUTH_PASSWORD
         generateValue: true
-
-      # À ajouter après 1er déploiement (dans Render > Environment)
+      # À ajouter après le 1er déploiement, dans Render > Environment :
       # - key: WEBHOOK_URL
       #   value: https://<ton-service>.onrender.com/
 
