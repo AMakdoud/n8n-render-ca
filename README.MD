@@ -1,7 +1,7 @@
 # n8n-render (easy mode, CA/FR)
 
 ### [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/AMakdoud/n8n-render-ca)
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/AMakdoud/<TON_REPO>)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/AMakdoud/n8n-render-ca)
 
 
 ### How to install n8n on render.com for free
